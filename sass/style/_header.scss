@@ -1,0 +1,30 @@
+@use"variable";
+.navParent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+   ul{
+      display: block;
+    li{
+        float: left;
+        a{
+            padding: 20px;
+            color: variable.$button_color;
+        }a:hover{
+            border-bottom: .25rem solid variable.$button_color;
+        }
+    }
+   }
+   .listStyleBtn{
+    a{
+        background-color:variable.$button_color;
+        border-radius: 5px;
+        color: white;
+    }
+    a:hover{
+        border-bottom: none !important;
+    }
+   }
+}

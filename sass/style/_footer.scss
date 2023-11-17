@@ -1,0 +1,23 @@
+.fotterStyle{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.textStyles{
+    color: white;
+    padding: 10px;
+    h2{
+        padding-bottom: 20px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+}
+.linkStyle{
+    padding: 10px;
+    a{
+        color: white;
+    }
+}

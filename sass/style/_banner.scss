@@ -1,33 +1,53 @@
 .bannerContainer{
     margin-top: 20px;
-    
+}
     .bannermainPrent{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         padding: 20px;
-        img{
-            max-width:100%;
-           }
-        .bannerChild{
-            padding-left: 60px;
-            h1{
-                font-size: 70px;
-            }
-            p{
-                font-size: 20px;
-            }
-            .flexBtn{
-                display: flex;
-                padding-top: 30px;
-                a{
-                  padding: 10px;
-                  background-color: black;
-                  border-radius: 5px;
-                  color: white;
-                }
-            }
-            
+    }
+    .bannerChild{
+        padding-left: 60px;
+        h1{
+            font-size: 70px;
+            padding: 5px;
         }
-       
+        p{
+            font-size: 20px;
+            padding: 5px;
+        }
+        .flexBtn{
+            display: flex;
+            padding-top: 30px;
+            img{
+                padding-right: 20px;
+                width: 100%;
+            }
+            a{
+              padding: 10px;
+              background-color: black;
+              border-radius: 5px;
+              color: white;
+            }
+        }
+        
+    }
+.bannerImg{
+    img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .bannerImg{
+        img{
+            display: none;
+        }
+    }
+    .bannerContainer{
+        margin-top:0px;
+    }
+    .bannerChild{
+        padding-left: 0px;
     }
 }

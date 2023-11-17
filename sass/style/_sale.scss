@@ -1,0 +1,39 @@
+.selsStyle{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+.selsStyle{
+    img{
+        width: 100%;
+    }
+}
+.textStyle{
+    padding: 20px;
+    h1{
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+    p{
+        padding-bottom:20px;
+        font-size: 20px;
+    }
+    a{
+        padding: 15px 30px ;
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 600px){
+    .selsStyle{
+        grid-template-columns:1fr;
+    }
+    .textStyle{
+        a{
+            padding:10px; 
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.yongFavs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.imgStyles{
+    
+    img{
+        width: 100%;
+    }
+}
+.itemStyles{
+    border-radius: 4%;
+    box-shadow: 8px 8px 5px #c2c8da;
+}
+.arrowRights{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+    p{
+        color:grey;
+    }
+    img{
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .yongFavs{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .arrowRights{
+       
+        img{
+            padding-top: 25px;
+        }
+    }
+}

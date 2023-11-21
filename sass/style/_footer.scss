@@ -1,52 +1,30 @@
+
 .fotterStyle{
     background-color: black;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    padding-top: 20px;
-    padding-bottom: 20px;
-   
-    
+    grid-column-gap:2% ;
+    padding: 20px;
 }
-.textStyles{
-    color: white;
-    padding-left: 30px;
-        h1{
-        
-            padding-bottom: 10px;  
-            
-        }
-        p{
-            padding-bottom: 10px;
-            
-        }
-        ul{
-            display: inline-block;
-            li{
-                float: left;
-                a{
-                    padding-right: 5px;
-                    font-size: 25px;
-                    font-weight: bold;
-                    color: yellow;
-                }
-            }
-        
-        
-    }
-    
-}
+
 
 .linkStyle{
    text-align: center;
+   
    ul{
     display: inline-block;
-    padding-left: 10px;
    }
    li{
     text-align: left;
     padding-bottom: 10px;
+    color: white;
    }
     a{
         color: white;
+    }
+    i{
+        color: yellow;
+        border-radius: 5px;
+        font-size: 30px;
     }
 }
